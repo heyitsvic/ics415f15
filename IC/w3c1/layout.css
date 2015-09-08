@@ -1,0 +1,17 @@
+header {
+  font-family: 'Tangerine', sarif;
+  border-bottom: solid;
+}
+
+footer {
+  border-top: solid;
+  border-bottom: solid;
+}
+
+.col-lg-9 {
+  outline: 1px black solid;
+}
+
+.row {
+  outline: 1px black solid;
+}
