@@ -1,6 +1,9 @@
-header {
+pageheader {
   font-family: 'Tangerine', sarif;
   border-bottom: solid;
+  padding: 0;
+  margin: 0;
+  text-align: left;
 }
 
 footer {
