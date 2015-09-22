@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="myscript.js"></script>
+  <title>My Website</title>
+</head>
+<body>
+  <div class="header">
+    <h1>We want to know more about you!</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="col-lg-3">
+      <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+        <div class="form-group">
+          <label for="username">User name: </label>
+          <input type="text" name="name" id="username">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="confirm">Confirm Password: </label>
+          <input type="password" name="confirm" id="confirm">
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+      <h3>Thank you!</h3>
+    </div>
+
+    <div class="col-lg-9">
+      <h3>Enjoy this video while you fill in that there form!</h3>
+      <h4>(Let it out by Ed Sheeran</h4>
+      <iframe width="800" height="500"
+              src="https://www.youtube.com/embed/3Yct775vGdQ"
+              frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+</body>
+</html>
