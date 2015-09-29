@@ -1,0 +1,12 @@
+.question {
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+span {
+  font-size: 25px;
+  color: blue;
+}
